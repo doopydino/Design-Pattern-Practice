@@ -1,3 +1,5 @@
+package Part1;
+
 public class SingleObject {
     // Create an object of SingleObject
     private static SingleObject instance = new SingleObject();

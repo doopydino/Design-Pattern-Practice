@@ -1,3 +1,5 @@
+package Part2;
+
 public class Computer implements ComputerPart {
     ComputerPart[] parts;
 
