@@ -71,3 +71,7 @@ var MonsterTruckVisitor = function() {
 var myCar = new carVariable();
 myCar.seats = 2;
 myCar.accept(new CarVisitor());
+
+var myMonsterTruck = new monsterTruckVariable();
+myMonsterTruck.looksLikeADragon = false;
+myMonsterTruck.accept(new MonsterTruckVisitor());
